@@ -5,6 +5,7 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default
 const isDev = process.env.NODE_ENV !== 'production'
 export default {
   target: 'server'
+  
 }
 
 module.exports = {
@@ -226,3 +227,5 @@ module.exports = {
     }
   }
 }
+
+

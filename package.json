@@ -6,9 +6,9 @@
     "analyze": "cross-env NODE_ENV=production  nuxt build --analyze",
     "build": "cross-env NODE_ENV=production nuxt build",
     "buildandstart": "cross-env NODE_ENV=production nuxt build && cross-env NODE_ENV=production nuxt start",
-    "dev": "cross-env NODE_ENV=development NUXT_PORT=3000 nuxt",
-    "start": "cross-env NODE_ENV=production nuxt start"
-   
+    "dev": "cross-env NODE_ENV=development NUXT_PORT=5000 nuxt",
+    "start": "cross-env NODE_ENV=production nuxt start",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.5",
