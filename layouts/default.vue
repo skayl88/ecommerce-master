@@ -58,7 +58,7 @@ export default {
   }
 }
 </script>
-<style  lang="scss"e>
+<style  lang="scss">
 .body {
   min-height: 90vh;
 }
