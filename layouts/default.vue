@@ -44,7 +44,7 @@ export default {
 
   methods: {},
   head() {
-    const canonical = `https://mysite.com${this.$route.path
+    const canonical = `https://ovoshnuxt.herokuapp.com/${this.$route.path
       .toLowerCase()
       .replace(/\/$/, '')}`
     return {
