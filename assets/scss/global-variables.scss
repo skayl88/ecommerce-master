@@ -1,0 +1,19 @@
+@mixin globalWrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding:  0 20px;
+}
+$basic-bg-color: #fff;
+$second-bg-color:#F5F5F5;
+$basic-color: #88c74a;
+$basic-txt-color: #252525;
+
+@mixin content-padding($media) {
+  padding: 0 $content-padding-m;
+  @media ($media) {
+      padding-left: $content-padding;
+  }
+}
+
+$content-padding: 20px;
+$content-padding-m: 10px;
