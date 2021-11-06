@@ -11,6 +11,6 @@ export default async (context, inject) => {
     attempt: 3,
     lazyComponent: true,
     observer: true,
-    throttleWait: 500
+    throttleWait: 5000
   })
 }
